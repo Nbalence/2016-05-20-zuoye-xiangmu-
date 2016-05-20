@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="angry_00.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2K1-1h-Wtd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" tag="112" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMY-4h-L1J">
+                                <rect key="frame" x="17" y="455" width="52" height="53"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="drink.png"/>
+                                <connections>
+                                    <action selector="Do:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3rB-Av-emG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="113" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWF-Gd-biw">
+                                <rect key="frame" x="17" y="538" width="60" height="57"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="eat.png"/>
+                                <connections>
+                                    <action selector="Do:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ERZ-wB-4Lb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="114" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIr-WE-fDZ">
+                                <rect key="frame" x="309" y="363" width="58" height="60"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="fart.png"/>
+                                <connections>
+                                    <action selector="Do:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ULR-Wx-Wbt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="115" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5k9-dH-aKG">
+                                <rect key="frame" x="307" y="455" width="60" height="60"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="pie.png"/>
+                                <connections>
+                                    <action selector="Do:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Us-pV-LkB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="116" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KlA-SB-1CC">
+                                <rect key="frame" x="309" y="539" width="59" height="56"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="scratch.png"/>
+                                <connections>
+                                    <action selector="Do:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Mo-iJ-GKc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="120" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U21-SG-hjs">
+                                <rect key="frame" x="129" y="601" width="46" height="46"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="Do:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kg1-5L-26j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="119" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVd-7F-UT7">
+                                <rect key="frame" x="194" y="601" width="46" height="46"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="Do:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U9t-Uf-ico"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="121" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rmc-f9-bJ3">
+                                <rect key="frame" x="258" y="555" width="35" height="46"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="Do:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Msb-I5-kWI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="118" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbi-qO-Cza">
+                                <rect key="frame" x="135" y="392" width="105" height="179"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="Do:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UI9-AP-4cx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="111" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxv-z8-bXw">
+                                <rect key="frame" x="15" y="363" width="56" height="60"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="cymbal.png"/>
+                                <connections>
+                                    <action selector="Do:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oYb-15-GSP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="117" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ubf-g8-sQh">
+                                <rect key="frame" x="94" y="139" width="186" height="179"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="Do:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lW3-ZZ-qvq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="ImageView" destination="2K1-1h-Wtd" id="lzd-8W-jJX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="339.5" y="429.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="angry_00.jpg" width="640" height="1024"/>
+        <image name="cymbal.png" width="60" height="60"/>
+        <image name="drink.png" width="60" height="60"/>
+        <image name="eat.png" width="60" height="60"/>
+        <image name="fart.png" width="60" height="60"/>
+        <image name="pie.png" width="60" height="60"/>
+        <image name="scratch.png" width="60" height="60"/>
+    </resources>
+</document>
